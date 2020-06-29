@@ -1,8 +1,8 @@
 # OCA_CC_06_20-09_20
-Veranstaltungs_Nr_192308
-Development Expert: Java Entwickler mit Oracle Certified Associate SE
+# Veranstaltungs_Nr_192308
+# Development Expert: Java Entwickler mit Oracle Certified Associate SE
 
-Guten Morgen
+## Guten Morgen
 
 Woche 1
 
