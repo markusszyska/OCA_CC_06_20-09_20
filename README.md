@@ -6,12 +6,14 @@
 
 Woche 1
 
-ToDo:
+## Done:
 - Imperative Sprachkonzepte
     - Java kompilieren und ausführen
      - Java VM und Compiler
      - Integrierte Entwicklungsumgebung
      - Konsolenanwendungen erstellen und ausführen
+
+## ToDo:
 - Variablen
      - Elementare Datentypen
      - Literale, Bezeichner, Schlüsselwörte
