@@ -34,5 +34,17 @@ public class DemoOperatoren {
 		zahl += 5;
 		System.out.println(zahl);
 		
+		int zahl3 = 5;
+		long zahl4 = 5;
+		
+		/*
+		 * Wenn eine Rechenoperation mit unterschiedlichen Datentypen
+		 * durchgefuehrt wird, ist das Ergebnis vom Datentyp des Groesseren
+		 */
+//		int erg2 = zahl3 + zahl4;
+//		int erg3 = 10 + 10L;
+		
+		int erg4 = (int)(zahl3 + zahl4);
+		int erg5 = (int)(10 + 10L);
 	}
 }
