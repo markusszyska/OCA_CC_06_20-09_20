@@ -36,5 +36,54 @@ public class DemoLogischeOperatoren {
 		 */
 		boolean b8 = true;
 		System.out.println("Negation: " + !b8);
+		
+		/*
+		 * Beim && wird die Abarbeitung des Ausdrucks abgebrochen sobald
+		 * das Ergebnis nicht mehr zu true ausgewertet werden kann.
+		 * 
+		 * Beim || wird die Abarbeitung abgebrochen, wenn das Ergebnis
+		 * nicht mehr zu false ausgewertet werden kann.
+		 */
+		System.out.println("------------------------------");
+		System.out.println("---------------Einfaches Und---------------");
+		int zahl = 0;
+		int zahl2 = 0;
+		System.out.println((zahl = 10) < 5 & (zahl2 =20) < 30);
+		System.out.println("zahl: " + zahl);
+		System.out.println("zahl2: " + zahl2);
+		
+		System.out.println("------------------------------");
+		System.out.println("---------------Doppeltes Und---------------");
+		zahl = 0;
+		zahl2 = 0;
+		System.out.println((zahl = 10) < 5 && (zahl2 =20) < 30);
+		System.out.println("zahl: " + zahl);
+		System.out.println("zahl2: " + zahl2);
+		
+		System.out.println("------------------------------");
+		System.out.println("---------------Doppeltes Und, zweite Bedingung false---------------");
+		zahl = 0;
+		zahl2 = 0;
+		System.out.println((zahl = 10) < 15 && (zahl2 =20) < 10);
+		System.out.println("zahl: " + zahl);
+		System.out.println("zahl2: " + zahl2);
+		
+		System.out.println("------------------------------");
+		System.out.println("---------------Doppeltes Oder---------------");
+		zahl = 0;
+		zahl2 = 0;
+		System.out.println((zahl = 10) < 15 || (zahl2 = 20) < 30);
+		System.out.println("zahl: " + zahl);
+		System.out.println("zahl2: " + zahl2);
+		
+		System.out.println("------------------------------");
+		System.out.println("---------------Einfaches Oder---------------");
+		zahl = 0;
+		zahl2 = 0;
+		System.out.println((zahl = 10) < 15 | (zahl2 = 20) < 30);
+		System.out.println("zahl: " + zahl);
+		System.out.println("zahl2: " + zahl2);
+		
+
 	}
 }
