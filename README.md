@@ -12,8 +12,6 @@ Woche 1
      - Java VM und Compiler
      - Integrierte Entwicklungsumgebung
      - Konsolenanwendungen erstellen und ausführen
-
-## ToDo:
 - Variablen
      - Elementare Datentypen
      - Literale, Bezeichner, Schlüsselwörte
@@ -28,6 +26,8 @@ Woche 1
      - Zuweisung mit Operation
      - Inkrement und Dekrement
      - Casting
+     
+## ToDo:
 - Kontrollstrukturen
      - if-Abfrage
      - switch-Anweisung
