@@ -8,18 +8,21 @@ public class Verzweigungen02 {
 		float x;
 		float y;
 		float preis;
-		
+
 		System.out.println("Preis pro Stück: ");
 		x = sc.nextFloat();
-		
+
 		System.out.println("Stückzahl:");
 		y = sc.nextFloat();
-		
-		if ( y >= 50) { System.out.println("-Rabatt 10%"+" Preis: " + x * y * 0.9 + "Euro"); };
-		if (y >=10 ) { System.out.println("-Rabatt 5%"+" Preis: "+ x*y*0.95 + "Euro" );}
-		else 
-		System.out.println("Preis:"+ x*y+"Euro");
-			
+
+		if (y >= 50) {
+			System.out.println("-Rabatt 10%" + " Preis: " + x * y * 0.9 + "Euro");
+		}
+		else if (y >= 10) {
+			System.out.println("-Rabatt 5%" + " Preis: " + x * y * 0.95 + "Euro");
+		} else
+			System.out.println("Preis:" + x * y + "Euro");
+
 	}
 
 }

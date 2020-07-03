@@ -52,36 +52,24 @@ package ml.Boettger.Berechnungen_Verzweigungen_03_BoolescheWerteUndOperatoren;
 
 public class BooleanValues {
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 		boolean b_val_i = false;
 		boolean b_val_j = false;
-	
+
 		System.out.println();
 		System.out.println("Logical Operators");
 		System.out.println("=================");
-		
-		for (int i = 1; i <= 2; i++)
-		{
-			b_val_i = (i == 1) ? false : true;			
-			for (int j = 1; j <= 2; j++)
-			{
+
+		for (int i = 1; i <= 2; i++) {
+			b_val_i = (i == 1) ? false : true;
+			for (int j = 1; j <= 2; j++) {
 				b_val_j = (j == 1) ? false : true;
-				
-				System.out.println(
-					b_val_i + " && " + 
-				    b_val_j + " = " +
-					(b_val_i && b_val_j));
-					
-				System.out.println(
-					b_val_i + " || " + 
-					b_val_j + " = " +
-					(b_val_i || b_val_j));		
-	
-				System.out.println(
-					b_val_i + " ^ " + 
-					b_val_j + " = " +
-					(b_val_i ^ b_val_j));		
+
+				System.out.println(b_val_i + " && " + b_val_j + " = " + (b_val_i && b_val_j));
+
+				System.out.println(b_val_i + " || " + b_val_j + " = " + (b_val_i || b_val_j));
+
+				System.out.println(b_val_i + " ^ " + b_val_j + " = " + (b_val_i ^ b_val_j));
 
 				System.out.println();
 			}
