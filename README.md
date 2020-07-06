@@ -26,8 +26,6 @@ Woche 1
      - Zuweisung mit Operation
      - Inkrement und Dekrement
      - Casting
-     
-## ToDo:
 - Kontrollstrukturen
      - if-Abfrage
      - switch-Anweisung
@@ -35,6 +33,8 @@ Woche 1
      - break und continue
      - Marker (Labels)
      - Schleifen verschachteln
+     
+## ToDo:
 - Statische Methoden
      - Methoden definieren und aufrufen
      - Gültigkeitsbereich von Variablen, Stack
