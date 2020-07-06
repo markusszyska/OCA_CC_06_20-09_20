@@ -4,7 +4,7 @@
 
 # Guten Morgen
 
-Woche 1
+Woche 1 - 2
 
 ## Done:
 - Imperative Sprachkonzepte
