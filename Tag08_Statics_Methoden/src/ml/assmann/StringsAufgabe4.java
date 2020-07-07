@@ -18,18 +18,18 @@ public class StringsAufgabe4 {
 		System.out.println("Geben Sie ein Kennwort ein.");
 		kennwort = sc.nextLine();
 		
-		//Teil 1 - Länge
+		//Teil 1 - Laenge
 		safePassword = kennwort.length()>=10;
 		if(!safePassword) System.out.println("Das Kennwort ist " + (10 - kennwort.length()) + " Zeichen zu kurz");
 		
-		//Teil 2 - Großbuchstaben & Zahl
+		//Teil 2 - Grossbuchstaben & Zahl
 		for(int i = 0;i<kennwort.length();i++) {
 			safeNumber = safeNumber || (kennwort.charAt(i) >= 48 && kennwort.charAt(i) <= 57);
 			safeUpperCaseLetter = safeUpperCaseLetter || (kennwort.charAt(i) >= 65 && kennwort.charAt(i) <= 90); 
 			if(safeNumber && safeUpperCaseLetter) break;
 		}
 		safePassword = safeNumber && safeUpperCaseLetter;
-		if(!safePassword) System.out.println("Das Kennwort muss mindestens einen Großbuchstaben und eine Zahl enthalten.");
+		if(!safePassword) System.out.println("Das Kennwort muss mindestens einen Grossbuchstaben und eine Zahl enthalten.");
 		
 		//Zusatz (ASCII)
 //		for(int i = 0;i<kennwort.length();i++) {
@@ -40,7 +40,7 @@ public class StringsAufgabe4 {
 //			if(kennwort.charAt(i) >= 97 && kennwort.charAt(i) <= 122) safeLowerCaseLetter = true;
 //		}
 //		safePassword = safePassword && safeSpecialChar && safeLowerCaseLetter;
-//		if(!safePassword) System.out.println("Das Kennwort muss mindestens einen Großbuchstaben, einen Kleinbuchstaben, eine Zahl und ein Sonderzeichen enthalten.");
+//		if(!safePassword) System.out.println("Das Kennwort muss mindestens einen Grossbuchstaben, einen Kleinbuchstaben, eine Zahl und ein Sonderzeichen enthalten.");
 		
 		//Zusatz (unicode)
 //		for(int i = 0;i<kennwort.length();i++) {
@@ -50,6 +50,6 @@ public class StringsAufgabe4 {
 //			if(kennwort.charAt(i) >= 97 && kennwort.charAt(i) <= 122) safeLowerCaseLetter = true;
 //		}
 //		safePassword = safePassword && safeSpecialChar && safeLowerCaseLetter;
-//		if(!safePassword) System.out.println("Das Kennwort muss mindestens einen Großbuchstaben, einen Kleinbuchstaben, eine Zahl und ein Sonderzeichen enthalten.");
+//		if(!safePassword) System.out.println("Das Kennwort muss mindestens einen Grossbuchstaben, einen Kleinbuchstaben, eine Zahl und ein Sonderzeichen enthalten.");
 	}
 }

@@ -4,7 +4,7 @@ public class StringsAufgabe5 {
 	public static void main(String[] args) {
 				
 		//Header
-		System.out.println("Dezimalzahl\tZeichen\t\tDezimalzahl\\tZeichen");
+		System.out.println("Dezimalzahl\tZeichen\t\tDezimalzahl\tZeichen");
 		
 		//Contents
 		System.out.println("32\t\tLeerzeichen\t80\t\tP");

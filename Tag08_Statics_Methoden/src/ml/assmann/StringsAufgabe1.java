@@ -12,9 +12,9 @@ public class StringsAufgabe1 {
 		System.out.println(name);
 		
 		//Teil 2
-		System.out.println("Länge des Vornamens: " + vorname.length());
-		System.out.println("Länge des Nachnamens: " + nachname.length());
-		System.out.println("Länge des Namens: " + (name.length()-1));
+		System.out.println("Laenge des Vornamens: " + vorname.length());
+		System.out.println("Laenge des Nachnamens: " + nachname.length());
+		System.out.println("Laenge des Namens: " + (name.length()-1));
 		
 		//Teil 3
 		kuerzel = "" + vorname.charAt(0) + nachname.charAt(0);
