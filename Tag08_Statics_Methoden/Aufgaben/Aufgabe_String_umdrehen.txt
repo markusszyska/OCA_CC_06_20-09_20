@@ -1,0 +1,6 @@
+Aufgabe String umdrehen
+
+Schreiben Sie eine Methode, die einen String entgegen nimmt
+und die Buchstaben in umgekehrter Reihenfolge zurueckgibt.
+Probieren Sie Ihre Methode aus, indem Sie sie aufrufen und ihr
+verschiedene Strings uebergeben.
