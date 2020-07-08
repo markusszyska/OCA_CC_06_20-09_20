@@ -14,14 +14,14 @@ Woche 2 - 3
     - Heap
     - Methoden
     - Konstruktoren
-          - default-Konstruktor
-          - Konstruktoren überladen und aufrufen
+     - default-Konstruktor
+     - Konstruktoren überladen und aufrufen
     - final Attribute
     - Initialisierungsblöcke
     - Garbage Collector
-            - System.gc()
-            - Für GC erreichbare Objekte
-            - finalize-Methode
+     - System.gc()
+     - Für GC erreichbare Objekte
+     - finalize-Methode
 
 Woche 1 - 2
 
