@@ -4,6 +4,25 @@
 
 # Guten Morgen
 
+Woche 2 - 3
+
+## toDo:
+- Klassen
+    - Klassen definieren
+    - Objekte, Referenzen, Attribute
+    - Vergleichen von Objekten und Variablen
+    - Heap
+    - Methoden
+    - Konstruktoren
+          - default-Konstruktor
+          - Konstruktoren überladen und aufrufen
+    - final Attribute
+    - Initialisierungsblöcke
+    - Garbage Collector
+            - System.gc()
+            - Für GC erreichbare Objekte
+            - finalize-Methode
+
 Woche 1 - 2
 
 ## Done:
@@ -33,11 +52,11 @@ Woche 1 - 2
      - break und continue
      - Marker (Labels)
      - Schleifen verschachteln
-     
-## ToDo:
 - Statische Methoden
      - Methoden definieren und aufrufen
      - Gültigkeitsbereich von Variablen, Stack
      - Rekursion
      - Methoden überladen
-     - Zugriff auf die statischen Variablen
+     - Zugriff auf die statischen Variablen    
+## ToDo:
+
