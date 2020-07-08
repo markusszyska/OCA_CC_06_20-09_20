@@ -1,0 +1,19 @@
+Machen Sie sich mit dem Aufbau einer Klasse und den Packages vertraut.
+
+Bauen Sie den BauernhofSimulator Ihren Package nach.
+Erzeugen Sie auf Grundlage der Klasse Schwein eine
+Klasse Kuh.
+
+Kuh soll folgende Attribute besitzen.
+Name
+Hauptfarbe
+Fleckenfarbe
+Milchmenge
+Gewicht
+
+
+// laufen sollte das Gewicht verringern, aber nicht unter 0 fallen dürfen
+// fressen sollte das Gewicht erhöhen, aber nicht über ein bestimmtes Gewicht
+// Eine Methode für die Milchmenge - melken
+-- Milchmenge sollte nicht im Negativenbereich abfallen können
+
