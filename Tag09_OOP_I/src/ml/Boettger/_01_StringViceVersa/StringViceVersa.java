@@ -7,7 +7,7 @@ Probieren Sie Ihre Methode aus, indem Sie sie aufrufen und ihr
 verschiedene Strings uebergeben.
  */
 
-package ml.Boettger._01_StringViceVersa;
+package ml.Boettger._01_StringViceVersa; 
 
 import java.util.Scanner;
 
