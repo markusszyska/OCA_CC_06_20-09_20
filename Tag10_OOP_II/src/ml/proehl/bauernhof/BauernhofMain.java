@@ -8,10 +8,10 @@ public class BauernhofMain {
 		k1.gewicht = 200;
 		k1.milch = 1;
 		
-		
-
-		
-		//k1.laufen();
+		k1.laufen();
+		k1.laufen();
+		k1.laufen();
+		k1.laufen();
 		k1.fressen();
 		k1.melken();
 		

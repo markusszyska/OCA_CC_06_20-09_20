@@ -25,7 +25,7 @@ public class Kuh {
 	//Methoden
 	public void laufen(int distanz) {
 		if(distanz < 0) {
-			System.out.println("Bitte geben sie eine gültige Laufdistanz ein.");
+			System.out.println("Bitte geben sie eine gueltige Laufdistanz ein.");
 		} else if(this.gewicht >= distanz) {
 			this.gewicht -= distanz;
 			System.out.println(this.name + " laeuft " + distanz + " km und wiegt nun " + this.gewicht + " kg");
@@ -34,7 +34,7 @@ public class Kuh {
 	
 	public void fressen(int menge) {
 		if(menge < 0) {
-			System.out.println("Bitte geben sie eine gültige Fressmenge ein.");
+			System.out.println("Bitte geben sie eine gueltige Fressmenge ein.");
 		} else if(this.gewicht + menge <= 1000) {
 			this.gewicht += menge;
 			System.out.println(this.name + " frisst " + menge + " kg und wiegt nun " + this.gewicht + " kg");

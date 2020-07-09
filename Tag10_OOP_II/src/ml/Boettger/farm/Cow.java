@@ -34,8 +34,6 @@ Meine Interpretation:
 
 package ml.Boettger.farm;
 
-import java.io.IOException;
-import java.util.Scanner;
 
 public class Cow {
 	
