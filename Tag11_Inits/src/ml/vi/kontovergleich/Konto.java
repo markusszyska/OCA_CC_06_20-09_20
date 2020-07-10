@@ -6,8 +6,8 @@ public class Konto {
 	private double kontostand;
 
 	public Konto(String name, String vorname, float kontostand) {
-
 		this.person = new Person();
+		//this.person = new Person(name, vorname);
 		this.setName(name);
 		this.setVorname(vorname);
 		this.setKontostand(kontostand);

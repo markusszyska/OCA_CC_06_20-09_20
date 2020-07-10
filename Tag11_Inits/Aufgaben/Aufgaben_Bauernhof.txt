@@ -1,0 +1,36 @@
+﻿Erweitern Sie den Bauernhofsimulator um folgende Klassen 
+
+Klasse Bauer:
+
+Attribute der Klasse Bauer:
+- name
+- gewicht
+- groesse
+- alter
+
+Klasse Eimer:
+
+Attribute der Klasse Eimer: 
+- fuellmenge
+- maxFuellmenge (optional)
+
+
+Alle Attribute sollen private sein und entsprechende Getter/Setter Methoden 
+sollen bereitgestellt werden.
+
+Konstruktoren: ein default Konstruktor, also Parameterlos und ein voll parametrisierter.
+der Parameterlose soll den voll parametrisierten aufrufen.
+
+Der Bauer soll folgende Methoden bereitstellen:
+
+-	Eine Methode melken(), mit der eine bestimmte Kuh gemolken werden kann,
+	also bei einem Kuh Objekt die Methode wirdGemolken() aufgerufen wird.
+	Die erhaltene Milch der Kuh soll der Bauer in ein Objekt vom Typ Eimer füllen können.
+	
+----------------------------------------------------------------	
+
+Der Stall soll eine Tuer haben. Diese Tuer soll verschliessbar sein. 
+Sie soll also die Zustaende aufgeschlossen/zugeschlossen haben.
+Diese Tuer soll mit einem Schluessel auf und zugeschlossen werden koennen.
+Der Bauer soll einen Schluessel haben koennen, mit dem er die Tuer auf und zu schliessen kann.
+

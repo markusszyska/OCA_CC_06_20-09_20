@@ -59,7 +59,7 @@ public class Adress {
 	
 	
 	public Adress(String name, String fname, String sname, int hnumber, int zcode, String city) {
-		//this(name,fname,sname,hnumber,zcode,city);
+//		this(name,fname,sname,hnumber,zcode,city);
 		this.setName(name);
 		this.setFname(fname);
 		this.setSname(sname);
