@@ -6,7 +6,7 @@ public class Application {
 		Person p1 = new Person();
 		p1.nonStaticGo();
 		//Aus:
-		p1.staticGo();
+		p1.staticGo();   
 		//Macht der Compiler
 		Person.staticGo();  
 		
