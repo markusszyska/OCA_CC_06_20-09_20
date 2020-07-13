@@ -19,11 +19,11 @@ Woche 2 - 3
     - final Attribute
     
 ## toDo:
-    - Initialisierungsblöcke
-    - Garbage Collector
-      - System.gc()
-      - Für GC erreichbare Objekte
-      - finalize-Methode
+- Initialisierungsblöcke
+- Garbage Collector
+    - System.gc()
+    - Für GC erreichbare Objekte
+    - finalize-Methode
 
 Woche 1 - 2
 
