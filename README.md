@@ -6,7 +6,7 @@
 
 Woche 2 - 3
 
-## toDo:
+## Done:
 - Klassen
     - Klassen definieren
     - Objekte, Referenzen, Attribute
@@ -17,6 +17,8 @@ Woche 2 - 3
       - default-Konstruktor
       - Konstruktoren überladen und aufrufen
     - final Attribute
+    
+## toDo:
     - Initialisierungsblöcke
     - Garbage Collector
       - System.gc()
