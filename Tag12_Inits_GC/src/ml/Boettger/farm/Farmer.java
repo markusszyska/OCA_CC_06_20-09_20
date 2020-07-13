@@ -136,7 +136,7 @@ public class Farmer
 
 	//#########################################################################
 	//
-	public void milking(Cow c, Float milk_from_cow, Bucket bucket)
+	public void milking(Cow c, float milk_from_cow, Bucket bucket)
 	//
 	//#########################################################################
 	{

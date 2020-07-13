@@ -95,7 +95,7 @@ public class FarmMain
 				//      name      age  weight   milk/L  color 	 color of spots	
 				new Cow("Christa", 20, 600.00f, 228.2f, "white", "brown");
 		
-				//                     filling anount     max filling amount
+				//                     filling amount     max filling amount
 			Bucket bucket = new Bucket(0.0f,              28.0f);		
 		
 				// 1. attempt
