@@ -1,6 +1,6 @@
 package staticVsNonStatic;
 
-public class Application {
+public class Application {  
 	public static void main(String[] args) {
 		Person.staticGo();
 		Person p1 = new Person();
@@ -8,7 +8,7 @@ public class Application {
 		//Aus:
 		p1.staticGo();
 		//Macht der Compiler
-		Person.staticGo();
+		Person.staticGo();  
 		
 //		Person p2 = new Person();
 //		p2.nonStaticGo();
