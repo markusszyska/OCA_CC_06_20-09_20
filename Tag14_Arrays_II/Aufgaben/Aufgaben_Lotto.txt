@@ -1,0 +1,14 @@
+-----------------------------------Aufgabe 1----------------------------
+Lottozahlen eine Ziehung
+Erstellen Sie einen Lottozahlengenerator, der 6 zufaellige Zahlen
+zwischen 1 und 49 in ein Array schreibt. Beachten Sie dabei,
+dass bei einer Lottoziehung keine Zahl doppelt vorkommt.
+Lassen Sie danach die Zahlen ausgeben.
+  
+-----------------------------------Aufgabe 4----------------------------
+Lassen Sie vom Nutzer einen Lottotip abgeben, er soll 6 Zahlen eingeben.
+Fuehren Sie solange Ziehungen durch, bis die Zahlen vom Nutzer gezogen wurden und 
+lassen Sie die Anzahl der Versuche ausgeben.
+Sortieren Sie das Array einer Ziehung zur Pruefung mit einem BubbleSort
+
+  

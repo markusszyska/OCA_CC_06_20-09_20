@@ -1,0 +1,6 @@
+Erstellen Sie eine Klasse DynamischesArray, die als Attribut ein Array des Typs int hat.
+Sie soll Methoden bereit stellen, die es ermöglichen ein Element am Ende zu entfernen
+oder hinzuzufügen. Zusatzlich soll sie Methoden bieten, um ein Element an einer beliebigen
+Position im Array hinzuzufügen oder zu entfernen.
+Erstellen Sie eine Klasse DynamischesArrayMain mit einer main methode um ihre Klasse
+DynamischesArray zu testen.  
