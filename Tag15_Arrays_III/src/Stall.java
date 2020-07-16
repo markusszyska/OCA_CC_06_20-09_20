@@ -8,5 +8,5 @@ public class Stall {
 	 
 }
 class Schwein{
-	
+	  
 }
