@@ -5,7 +5,7 @@ public class Stall {
 	public Stall() {
 		schwein = new Schwein();
 	}
-	
+	 
 }
 class Schwein{
 	
