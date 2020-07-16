@@ -1,0 +1,40 @@
+Aufgaben Bauernhof
+
+1.	Erweitern Sie den Bauernhofsimulator um die Klasse Bauernhof. Die Klasse Bauernhof
+	soll mit dem Stall in einer "Has-A" Beziehung stehen, also eine Referenz vom Typ Stall
+	halten. Mit jedem Bauernhof Objekt soll auch ein Stall Objekt erstellt werden.
+	Die Klasse Bauer soll den Bauernhof kennen, der ihm gehoert, also auch mit ihm in einer "Has-A"
+	Beziehung stehen.
+
+2. 	Erweitern Sie den Stall, so dass er jeweils 10 Kuehe und 10 Schweine 
+	Referenzen aufnehmen kann. Schreiben Sie dazu die noetingen Getter/Setter 
+	und Konstruktoren
+
+3. 	Erweitern Sie die Klasse Bauer, so dass ein Bauer eine bestimmte Kuh oder
+	ein bestimmtes Schwein in den Stall "seines" Bauernhofes stellen kann.
+	Dabei soll die Kuh bzw. Schweine Referenz in den ersten freien Platz im Stall
+	geschrieben werden. Sollte der Stall voll sein, soll eine entsprechende
+	Meldung ausgegeben werden.
+	
+4.	Erweitern Sie die Klassen Kuh und Schwein um einen Verkaufspreis und die Klasse Bauer 
+	um ein Attribut "kontostand" mit entsprechenden Gettern/Settern.
+	
+5. 	Erweitern Sie die Klasse Bauer, so dass der Bauer eine bestimmte Kuh oder ein bestimmtes Schwein
+	aus dem Stall verkaufen kann. Die Kuh / das Schwein soll anhand des Namens im Stall gesucht werden.
+	Wenn die Kuh/das Schwein nicht im Stall gefunden wird, soll eine entsprechende Meldung ausgegeben 
+	werden. Der Verkauf soll den Kontostand des Bauern entsprechend des Verkaufspreises erhoehen.
+	Nach dem Verkauf soll die Kuh/das Schwein "eligible for GC" sein.
+	
+6. 	Erweitern Sie den Bauernhof Simulator, so noch nicht geschehen um die Klassen Karotte und Kartoffel.
+	Beide sollen das Attribut "sorte" haben. Zusaetzlich soll die Karotte ein Attribut "ruebenlaenge" und 
+	die Kartoffel ein Attribut "knollengroesse" haben. Die Kuh/das Schwein sollen beides Essen koennen, 
+	das Gewicht soll sich entsprechend der Knollengroesse/der Ruebenlaenge erhoehen. Der Bauer soll eine 
+	Kuh/ein Schwein mit einer Karotte/Kartoffel fuettern koennen.
+	
+7. 	Bonus:
+	Erweitern Sie die Klasse Eimer, sodass Der Eimer jeweils 10 Karotten / 10 Kartoffeln aufnehmen kann.
+	Der Bauer soll eine Methode "alleTiereFuettern()" bekommen, mit der er alle Tiere im Stall mit jeweils 
+	einer Kartoffel / einer Karotte gefuettert werden. Danach muss die Karotte/Kartoffel "eligible for GC" 
+	sein. Sollte nach dem Fuettern noch Futter uebrig sein, soll eine Meldung ausgegeben werden, ebenso sollte 
+	nicht genug Futter vorhanden sein.
+	

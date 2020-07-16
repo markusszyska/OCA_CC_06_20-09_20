@@ -10,6 +10,7 @@ Sortieren Sie das Array einer Ziehung zur Pruefung mit einem BubbleSort
 
 package ml.Boettger.task_4_Lotto;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class LottoMain4 {
@@ -265,5 +266,8 @@ public class LottoMain4 {
 		System.out.println(
 			"\tThere had been totally " + number_of_draws + " attempts.");
 		LottoMain4.sc.close();
+		
+		DecimalFormat df = new DecimalFormat();
+		System.out.println(df.format(number_of_draws));
 	}	
 }

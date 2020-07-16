@@ -34,7 +34,7 @@ public static void main(String[] args) {
 	 // Daten sortieren mit Bubblesort
 
 } }  /*
-public class Bubblesort{
+class Bubblesort{
 	public int[] intArr;
     public int[] sort() {
         int k;
