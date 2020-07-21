@@ -1,0 +1,5 @@
+
+Schweine und Kühe sollen die Möglichkeit haben, sich zu vermehren, also eine Methode vermehren()
+bekommen. Die Methode soll ein Tier übergeben bekommen und es kann nur Nachkommen geben, wenn versucht wird
+Nachkommen mit einem männlichen und einem weiblichen Tier zu zeugen. Das Ergebnis des Vermehrens soll jeweils 
+ein neues Kalb, bzw. ein neues Ferkel Objekt sein.
