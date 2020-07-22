@@ -7,6 +7,8 @@ public class App {
 		a.go();
 		B b = new B();
 		b.go();
+		
+
 	}
 }
 
