@@ -25,6 +25,8 @@ public class Child extends AAbstrakteZwischenklasse implements IInterface{
 		
 	}
 
-	
+//	public void defaultMethodInInterface() {
+//		System.out.println("Default Methode im Interface");
+//	}
 
 }

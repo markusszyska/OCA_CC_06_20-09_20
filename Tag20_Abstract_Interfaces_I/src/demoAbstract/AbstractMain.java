@@ -41,5 +41,7 @@ public class AbstractMain {
 		
 		p.aMethodInInterface();
 		
+		Child c = new Child();
+		c.defaultMethodInInterface();
 	}
 }

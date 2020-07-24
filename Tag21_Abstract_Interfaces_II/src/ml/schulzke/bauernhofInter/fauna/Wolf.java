@@ -15,8 +15,7 @@ public class Wolf extends Tier implements IEssbar{
 	}
 
 	public void frisst(IEssbar p) {
-		System.out.println();
-		
+		System.out.println();		
 		if(p==this) {
 			System.out.println("Wolf jagt seinen eigenen Schwanz!");
 		}else if(p.getClass().getSimpleName().equals("Meat")||p.getClass().getSuperclass().getSimpleName().equals("Tier")) {
