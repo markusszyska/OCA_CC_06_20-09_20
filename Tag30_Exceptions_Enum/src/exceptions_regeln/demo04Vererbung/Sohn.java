@@ -78,7 +78,6 @@ public class Sohn extends Vater {
 		try {
 			Sohn s = new Sohn();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 //		s.except02();
