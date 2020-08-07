@@ -1,0 +1,25 @@
+name@domain.tld
+
+@domain.tld
+name.domain.tld
+name@tld
+
+na me@domain.tld
+
+
+while (pruefen(emailadresse) == false) {
+	korrigiere(emailadresse);
+}
+try {
+	sendenAn(emailadresse);
+} catch (SendeFehlerException e) {
+	... Fehlerbericht erzeugen ...
+}
+
+
+
+
+public boolean sendenAn(Emailadresse emailadresse) {
+	... sendeversuch ...
+	throw new SendeFehlerException();
+}

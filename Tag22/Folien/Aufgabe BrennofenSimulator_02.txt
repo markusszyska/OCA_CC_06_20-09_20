@@ -1,0 +1,26 @@
+Schreiben Sie einen objektorientierten BrennofenSimulator.
+
+Stadium 01:
+
+Dort soll ein Brennofen simuliert werden,
+in dem verschiedene Materialien verbrannt werden können.
+
+Je nachdem was Sie verbrennen, wird die Temperatur des
+Brennofens unterschiedlich stark erhöht.
+
+Wird eine bestimmte Temperatur überschritten, ist
+der Brennofen kaputt und das Programm beendet sich.
+
+Stadium 02:
+
+Achten Sie darauf, dass nirgends konkrete Klassen als
+Übergabeparameter genutzt werden, sondern ausschliesslich
+Interfaces.
+
+Erweitern Sie Ihr Programm so, dass eine Ausnahme erzeugt wird,
+wenn die Höchsttemperatur des Ofens überschritten wird.
+
+Als Reaktion soll ein Kühlsystem gestartet werden, dass einmalig
+versucht die Temperatur um einen festen Wert zu senken. Sollte damit
+die Höchsttemperatur nicht unterschritten werden, explodiert der
+Brennofen und das Programm bricht entsprechend ab.

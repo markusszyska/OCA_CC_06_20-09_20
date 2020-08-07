@@ -1,0 +1,16 @@
+Überarbeiten Sie Ihren BauernhofSimulator, sodass Klassen,
+Abstrakte Klassen und Interfaces - hoffentlich korrekt -
+genutzt werden.
+
+Erstellen Sie eine eigene SchweinZuLeichtException und
+bauen Sie diese an geeigneter Stelle ein, um damit
+umzugehen, wenn ein Schwein ein Gewicht von kleiner 1 hat.
+
+Erstellen Sie eine eigene EssenIstWegException und
+bauen Sie diese an geeigneter Stelle ein, um damit
+umzugehen, wenn ein Essen weniger als 1 essbares
+Element hat (z.B. Knollen).
+
+Sollte das Programm Ihrer Meinung nach in einen nicht definierten
+und unkorrigierbaren Arbeitszustand geraten, so sollte es mit
+einem geeigneten Fehlerbericht abgebrochen werden.

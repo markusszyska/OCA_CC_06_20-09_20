@@ -1,0 +1,10 @@
+Schreiben Sie einen objektorientierten BrennofenSimulator.
+
+Dort soll ein Brennofen simuliert werden,
+in dem verschiedene Materialien verbrannt werden können.
+
+Je nachdem was Sie verbrennen, wird die Temperatur des
+Brennofens unterschiedlich stark erhöht.
+
+Wird eine bestimmte Temperatur überschritten, ist
+der Brennofen kaputt und das Programm beendet sich.

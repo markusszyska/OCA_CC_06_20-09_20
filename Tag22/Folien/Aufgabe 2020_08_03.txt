@@ -1,0 +1,9 @@
+Aufgabe 1:
+Überarbeiten Sie Ihren Taschenrechner, sodass die Klassen- und
+Paketstruktur sich an der GUI-Demo_03 von heute orientiert.
+
+Ergänzen Sie in Ihrem Taschenrechner eine Menü um den Taschenrechner zu beenden.
+
+Aufgabe 2:
+Schreiben Sie die Klasse GUIDemo_03_Monolith.java indem Sie die Funktionalität
+von GUIDemo_03 als eine monolithische Klasse nachbilden.
