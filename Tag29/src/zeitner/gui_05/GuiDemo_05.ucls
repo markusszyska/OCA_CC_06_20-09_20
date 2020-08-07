@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="zeitner.gui_05.GuiDemo_Monolith" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/GuiDemo_Monolith.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="93" width="120" x="969" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="zeitner.gui_05.GuiDemo" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/GuiDemo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="93" width="102" x="766" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="zeitner.gui_05.gui.actionlistener.ExitListener" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/actionlistener/ExitListener.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="93" width="173" x="907" y="738"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="zeitner.gui_05.gui.actionlistener.UmschaltListener" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/actionlistener/UmschaltListener.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="147" width="173" x="41" y="889"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="zeitner.gui_05.gui.button.ExitButton" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/button/ExitButton.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="93" width="244" x="623" y="569"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="zeitner.gui_05.gui.button.UmschaltButton" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/button/UmschaltButton.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="111" width="235" x="41" y="738"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="zeitner.gui_05.gui.frame.MainFrame" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/frame/MainFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="93" width="241" x="766" y="170"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="zeitner.gui_05.gui.label.Display" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/label/Display.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="584" y="809"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="zeitner.gui_05.gui.label.IDisplay" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/label/IDisplay.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="93" width="139" x="297" y="1076"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="zeitner.gui_05.gui.menubar.MainFrameMenuBar" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/menubar/MainFrameMenuBar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="93" width="241" x="907" y="303"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="zeitner.gui_05.gui.menubar.menu.FileMenu" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/menubar/menu/FileMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="93" width="244" x="907" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="zeitner.gui_05.gui.menubar.menu.menuitem.ExitItem" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/menubar/menu/menuitem/ExitItem.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="93" width="244" x="907" y="569"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="zeitner.gui_05.gui.panel.ButtonPanel" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/panel/ButtonPanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="93" width="241" x="41" y="569"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="zeitner.gui_05.gui.panel.DisplayPanel" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/panel/DisplayPanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="129" width="240" x="322" y="569"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="zeitner.gui_05.gui.panel.MainPanel" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/panel/MainPanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="93" width="241" x="626" y="303"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="zeitner.gui_05.gui.panel.WorkingPanel" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/panel/WorkingPanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="93" width="244" x="342" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="zeitner.gui_05.gui.toolbar.MainToolBar" project="zeitner.2020_08_05" 
+    file="/zeitner.2020_08_05/src/zeitner/gui_05/gui/toolbar/MainToolBar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="93" width="241" x="626" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <realization id="22">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="24">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="25" name="display"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <association id="28">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="29" name="display"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="31">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="32">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="33">    
+    <bendpoint x="592" y="569"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="34">    
+    <bendpoint x="306" y="738"/>    
+    <bendpoint x="306" y="889"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="35">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="36">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="37">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="38">    
+    <bendpoint x="244" y="889"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="39">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="40">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
