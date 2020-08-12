@@ -96,6 +96,11 @@ public class Iterieren {
 			System.out.println("Ich bin ein Lambda und mache was mit jeder verbleibenen Person");
 		});
 		
+		/*
+		 * Supplier ist ein FunctionalInterface aus der Java Bibliothek
+		 * so wie Predicate. Seine Methode get() nimmt keinen Paramater
+		 * entgegen, aber liefert etwas zurück
+		 */
 		Supplier<Person> supPers = () -> new Person("Supplier Person", 10);
 		Person p = supPers.get();
 		

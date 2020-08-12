@@ -1,0 +1,51 @@
+# Aufgabe 'ArrayList'
+
+###### A1.
+Erzeugen Sie eine `ArrayList` mit 20 zufälligen Integer aus dem Bereich [1 ... 100]. 
+Geben Sie die Elemente der Liste durchnummeriert untereinander aus.
+
+###### A2.
+Erzeugen Sie eine `ArrayList` mit folgenden Strings: "mo", "di", "mi", "do", "fr". 
+Geben Sie die Elemente der Liste mit der foreach-Schleife aus.
+
+###### A3.
+Erzeugen Sie eine `ArrayList` mit folgenden Strings: "mo", "di", "mi", "do", "fr". 
+Verwenden Sie einen `Iterator` um die Elemente der Liste mit der while-Schleife auszugeben.
+
+###### A4.
+Erzeugen Sie eine `ArrayList` mit folgenden Werten: 10, 20, 30, 40, 50, 60, 70, 80. 
+Geben Sie jedes zweite Element der Liste aus.
+
+###### A5.
+Erzeugen Sie eine `ArrayList` mit folgenden Werten: 10, 20, 30, 40, 50, 60, 70, 80. 
+Geben Sie die Elemete der Liste rückwärts aus.
+
+###### A6.
+Erzeugen Sie eine `ArrayList` mit 20 zufälligen Integer aus dem Bereich [0 ... 100]. 
+Sortieren Sie die Liste und geben Sie sie aus.
+
+###### A7.
+Erzeugen Sie eine `ArrayList` mit 10 zufälligen Integer aus dem Bereich [0 ... 50]. 
+Suchen Sie mit `indexOf` nach dem Wert 12.
+
+###### A8.
+Erzeugen Sie eine `ArrayList` mit 10 zufälligen Integer aus dem Bereich [0 ... 50]. 
+Entfernen Sie mit `remove(int)` die ungeraden Werte.
+
+###### A9.
+Erzeugen Sie eine `ArrayList` mit 10 zufälligen Integer aus dem Bereich [0 ... 50]. 
+Entfernen Sie mit `removeIf` die ungeraden Werte.
+
+###### A10.
+Erzeugen Sie eine `ArrayList` mit 10 zufälligen Integer aus dem Bereich [0 ... 50]. 
+Ersetzen Sie in einer Schleife mit der Methode `set` alle ungeraden Werte durch 0.
+
+###### A11.
+Erzeugen Sie eine `ArrayList` mit 10 zufälligen Integer aus dem Bereich [0 ... 50]. 
+Verwenden Sie eine Methode `toArray` um ein Array mit den Elementen der Liste zu erhalten.
+
+
+
+
+
+
