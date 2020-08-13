@@ -17,7 +17,7 @@ public class ArrayListMain {
 		 */
 		
 	    ArrayList<Integer> list = new ArrayList<Integer>();
-	    list = rndGen(list,10,50);
+	    list = rndGen(list,10,100);
 	       
 	    for(int a : list) {
 	           
