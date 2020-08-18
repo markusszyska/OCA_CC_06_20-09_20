@@ -62,6 +62,8 @@ public class Bernds_PDF_READER {
 		
 		btnNewButton = new JButton("Load PDF");
 		btnNewButton.addActionListener(this::loadPDF);
+		Bernds_Actions ba = new Bernds_Actions();
+		btnNewButton.addActionListener(ba::ichLadeWas);
 		panel.add(btnNewButton);
 		
 		btnNewButton_1 = new JButton("Exit");

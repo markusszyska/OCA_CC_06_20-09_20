@@ -1,0 +1,5 @@
+erste Zeile
+zweite Zeile ohne newLine()erste Zeile
+zweite Zeile ohne newLine()erste Zeile
+zweite Zeile ohne newLine()erste Zeile
+zweite Zeile ohne newLine()

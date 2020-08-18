@@ -14,5 +14,11 @@ public class Bernds_Actions {
 	
 	public static void clickAction(ActionEvent e ) {
 		System.out.println("Klick die 4.");;		
-	}	
+	}
+	
+	public void ichLadeWas(ActionEvent e) {
+		System.out.println("irgendwas geladen");
+	}
+	
+	
 }

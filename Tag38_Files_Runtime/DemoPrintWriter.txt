@@ -1,0 +1,6 @@
+erste Zeile
+zweite Zeile
+dritte Zeile
+nur print, zweiter print der Zeilenumbruch von println() wird erst am Ende gemacht
+Niemals flush() und/oder close() vergessen
+Zum appenden brauchen wir ein FileWriter Objekt
