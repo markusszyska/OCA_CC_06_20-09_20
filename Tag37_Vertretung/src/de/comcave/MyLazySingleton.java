@@ -5,7 +5,7 @@ public class MyLazySingleton {
 	private static MyLazySingleton instance = null;
 
 	private String text;
-	
+	 
 	public static MyLazySingleton getInstance() {
 		if(instance == null) {
 			instance = new MyLazySingleton();

@@ -5,7 +5,7 @@ public class MyLazyThreadSafeSingleton {
 	private static MyLazyThreadSafeSingleton instance = null;
 
 	private String text;
-	
+	 
 	public static MyLazyThreadSafeSingleton getInstance() {
 		synchronized (MyLazyThreadSafeSingleton.class) {
 			if (instance == null) {

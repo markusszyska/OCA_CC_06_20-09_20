@@ -3,9 +3,9 @@ package de.comcave;
 public class Applikation {
 
 	public static void main(String[] args) {
-		MySingleton ms01 = MySingleton.getInstance();  
+		MySingleton ms01 = MySingleton.getInstance();     
 		System.out.println(ms01.getText());//default
-		ms01.setText("Hallo Welt");
+		ms01.setText("Hallo Welt");  
 		System.out.println(ms01.getText());//Hallo Welt
 		
 		MySingleton ms02 = MySingleton.getInstance();

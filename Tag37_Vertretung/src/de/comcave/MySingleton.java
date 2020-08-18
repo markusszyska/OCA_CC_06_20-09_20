@@ -4,7 +4,7 @@ package de.comcave;
  * Eager Singleton - Eifriges Singleton
  */
 public class MySingleton {
-
+ 
 	private final static MySingleton instance = new MySingleton();
 
 	private String text;
