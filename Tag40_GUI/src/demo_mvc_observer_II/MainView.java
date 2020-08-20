@@ -1,4 +1,4 @@
-package demo_mvc_observer;
+package demo_mvc_observer_II;
 
 import java.awt.BorderLayout;
 import java.awt.Font;

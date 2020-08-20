@@ -1,20 +1,20 @@
-package demo_mvc_observer;
+package demo_mvc_observer_II;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Observable;
 import java.util.Observer;
 
-public class Controller implements ActionListener, Observer {
+public class Controller implements ActionListener, IUnserObserver{
 
 	private Model model;
-	private MainView mainView;
+	private MainView mainView; 
 
 	public Controller() {
 		this.setMainView(new MainView());
 		this.setModel(new Model());
 		this.getMainView().addActionListenerToButtons(this);
-		this.getModel().addObserver(this);
+		this.getModel().registerObserver(this);
 	}
 
 	public Model getModel() {
@@ -47,15 +47,14 @@ public class Controller implements ActionListener, Observer {
 	}
 
 	@Override
-	public void update(Observable o, Object arg) {
-		System.out.println("Updating View");
-		System.out.println(arg);
+	public void update(IUnserObserable o, Object arg) {
 		if(o == this.getModel()) {
-			System.out.println("Model erkannt");
-			this.getMainView().updateLabel(arg.toString());
-		}
-		
-		
+			this.getMainView().updateLabel(arg);
+		}		
 	}
+
+	
+		
+	
 
 }
