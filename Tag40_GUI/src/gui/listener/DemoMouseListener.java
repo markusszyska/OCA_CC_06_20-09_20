@@ -58,8 +58,7 @@ class MyMouseListener implements MouseListener{
 	}	
 }
 
-class MyMouseListener2 extends MouseAdapter{
-	
+class MyMouseListener2 extends MouseAdapter{	
 	@Override
 	public void mouseExited(MouseEvent e) {
 		System.out.println("Exited");
