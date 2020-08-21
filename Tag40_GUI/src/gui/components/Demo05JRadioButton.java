@@ -13,7 +13,7 @@ import javax.swing.JRadioButton;
 public class Demo05JRadioButton {
 	public static void main(String[] args) {
 		JFrame frame = new JFrame();
-		frame.setTitle("Demo04JToggleButton");
+		frame.setTitle("Demo05JRadioButton");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setBounds(600, 300, 640, 480);
 		JPanel panel = new JPanel();
