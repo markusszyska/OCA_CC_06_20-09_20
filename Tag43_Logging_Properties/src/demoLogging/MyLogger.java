@@ -3,6 +3,7 @@ package demoLogging;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.logging.ConsoleHandler;
 import java.util.logging.FileHandler;
 import java.util.logging.Formatter;
 import java.util.logging.Level;
@@ -23,8 +24,7 @@ public class MyLogger {
 	
 	public MyLogger() {
 		this.setLog(Logger.getLogger(Logger.GLOBAL_LOGGER_NAME));
-		this.getLog().setUseParentHandlers(false);
-		
+		this.getLog().setUseParentHandlers(false);		
 		try {
 			FileHandler fh = new FileHandler("Log.log");
 			fh.setLevel(Level.FINE);
@@ -45,13 +45,14 @@ public class MyLogger {
 				}
 			});
 			this.getLog().addHandler(fh);
-			
+		
 		} catch (Exception e) {
-
 			e.printStackTrace();
 		}
 		
-		
+		ConsoleHandler ch = new ConsoleHandler();
+		ch.setLevel(Level.ALL);
+		this.getLog().addHandler(ch);
 		
 	}
 	
