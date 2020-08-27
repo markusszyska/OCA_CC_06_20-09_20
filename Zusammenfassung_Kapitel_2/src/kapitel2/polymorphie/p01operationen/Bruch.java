@@ -1,6 +1,6 @@
 package kapitel2.polymorphie.p01operationen;
 
-public class Bruch {
+public class Bruch implements IPrintable{
 	private int nenner;
 	private int zaehler;
 	

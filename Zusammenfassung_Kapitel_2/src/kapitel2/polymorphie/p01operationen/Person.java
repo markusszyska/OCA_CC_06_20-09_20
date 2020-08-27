@@ -1,6 +1,6 @@
 package kapitel2.polymorphie.p01operationen;
 
-public class Person {
+public class Person implements IPrintable{
 	private String name, vorname;
 	private int alter;
 
