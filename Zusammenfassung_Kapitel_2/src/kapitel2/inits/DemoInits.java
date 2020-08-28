@@ -13,6 +13,8 @@ public class DemoInits {
 		B b = new B();
 		System.out.println("---------------zweites Objekt erzeugt--------------");
 		B b1 = new B();
+		
+		B b3 = (B)new A();
 	}
 }
 
