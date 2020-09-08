@@ -1,0 +1,5 @@
+Margherita;4.00
+Salami;4.5
+Funghi;4.5
+Prosciuto Fughi;5.0
+Diavolo;5.0

@@ -1,0 +1,372 @@
+---
+1. QUESTION=
+Consider the following class...
+class TestClass{
+    void probe(Object x) { System.out.println("In Object"); } //3 
+
+    void probe(Number x) { System.out.println("In Number"); } //2
+
+    void probe(Integer x) { System.out.println("In Integer"); } //2
+    
+    void probe(Long x) { System.out.println("In Long"); } //4
+    
+    public static void main(String[] args){
+        double a = 10; 
+        new TestClass().probe(a); 
+    }
+}
+What will be printed?
+
+ANSWERS(1)=
+In Number - CORRECT
++++
+In Object
++++
+In Long
++++
+In Integer
++++
+It will not compile.
++++
+
+EXPLANATION=
+Here, we have four overloaded probe methods but there is no probe method that takes a double parameter. However, a double will be boxed into a Double and class Double extends Number. Therefore, a Double can be passed to the method that takes Number. A Double can also be passed to a method that takes Object, but Number is more specific than Object therefore probe(Number ) will be called.  We advise you to run this program and try out various combinations. The exam has questions on this pattern.
+
+---
+2. QUESTION=
+What will the following code print when run?
+
+
+public class Test {
+
+    static String s = "";
+
+    public static void m0(int a, int b) {
+        s += a;
+        m2();
+        m1(b);
+    }
+
+    public static void m1(int i) {
+        s += i;
+    }
+
+    public static void m2() {
+        throw new NullPointerException("aa");
+    }
+
+    public static void m() {
+        m0(1, 2);
+        m1(3);
+    }
+
+    public static void main(String args[]) {
+        try {
+            m();
+        } catch (Exception e) {
+        }
+        System.out.println(s);
+    }
+}
+
+ANSWERS(1)=
+1 - CORRECT
++++
+12
++++
+123
++++
+2
++++
+It will throw exception at runtime.
++++
+
+EXPLANATION=
+Try to follow the control flow:  
+1. m() calls m0(1, 2). 
+2. m0(1, 2) first executes s += 1 (so s is now 1) and then calls m2(). 
+3. Now, m2() throws an exception which is not caught by m2() so it is propagated back to m0(1, 2). 
+Since, within m0 method, the call to m2() is not wrapped in a try catch block, this exception further propagates up to m(). 
+(The next line in m0(1, 2), which is m1(2), is not executed ). 
+4. Again, m() also does not have the try catch block so the same exception is further propagated up to the main() method. (
+The next line in m(), which is a call to m1(3) is not called). 4. In main method, the call to m() is wrapped in a try catch block 
+and so the exception is handled here. 
+5. Finally, s stays as "1".  The point to note here is that if you do not catch an exception, 
+it is propagated up the stack of method calls until it is handled. If nobody handles it, the JVM handles that exception and kills the thread. 
+If that thread is the only user thread running, the program ends.
+
+---
+3. QUESTION=
+Consider the following class:
+
+public class Test{
+    public int id;
+}
+Which of the following is the correct way to make the variable 'id' read only for any other class?
+
+ANSWERS(1)=
+Make 'id' private.
++++
+Make 'id' private and provide a public method getId() which will return its value. - CORRECT
++++
+Make 'id' static and provide a public static method getId() which will return its value.
++++
+Make id 'protected'
++++
+
+EXPLANATION=
+This is a standard way of providing read only access to internal variables.
+
+---
+4. QUESTION=
+Given the following definitions and reference declarations:
+interface I1 { }
+interface I2 { }
+class C1 implements I1 { }
+class C2 implements I2 { }
+class C3 extends C1 implements I2 { }
+C1 o1;
+C2 o2;
+C3 o3;
+Which of these statements are legal?
+
+ANSWERS(3)=
+class C4 extends C3 implements I1, I2 { } - CORRECT
++++
+o3 = o1;
++++
+o3 = o2;
++++
+I1 i1 = o3; I2 i2 = (I2) i1; - CORRECT
++++
+I1 b = o3; - CORRECT
++++
+
+EXPLANATION=
+
+---
+5. QUESTION=
+Given the following code, which statements are true?
+
+interface Automobile { String describe(); }
+
+class FourWheeler implements Automobile{
+   String name;
+   public String describe(){ return " 4 Wheeler " + name; }
+}
+
+class TwoWheeler extends FourWheeler{
+    String name;
+    public String describe(){ return " 2 Wheeler " + name; }
+}
+
+ANSWERS(3)=
+An instance of TwoWheeler is also an instance of FourWheeler. - CORRECT
++++
+An instance of TwoWheeler is a valid instance of Automobile. - CORRECT
++++
+The use of inheritance is not justified here because a TwoWheeler is not really a FourWheeler in the real world that the code is trying to model. - CORRECT
++++
+The code will compile only if name is removed from TwoWheeler.
++++
+The code will fail to compile.
++++
+
+EXPLANATION=
+The use of inheritance in this code is not justifiable, since conceptually, a TwoWheeler is-not-a FourWheeler.
+
+---
+6. QUESTION=
+Which of these statements concerning the use of modifiers are true?
+
+ANSWERS(1)=
+By default (i.e. no modifier) the member is only accessible to classes in the same package and subclasses of the class.
++++
+You cannot specify visibility of local variables. - CORRECT
++++
+Local variable always have default accessibility.
++++
+Local variables can be declared as private.
++++
+Local variables can only be declared as public. 
++++
+
+EXPLANATION=
+You cannot apply any modifier except final to a local variable. i.e. you cannot make them transient, volatile, static, public, and private.
+But you can apply access modifiers (public private and protected) and final, transient, volatile, static to instance variables.
+You cannot apply native and synchronized to any kind of variable.
+---
+7. QUESTION=
+Consider the following code:
+
+class A {
+    public void doA(int k) throws Exception {  // 0
+        for(int i=0; i< 10; i++) {
+            if(i == k) throw new Exception("Index of k is "+i); // 1
+        }
+    }
+    public void doB(boolean f) { // 2
+        if(f) {
+            doA(15); // 3
+        }
+        else return;
+    }
+    public static void main(String[] args) { // 4
+        A a = new A();
+        a.doB(args.length>0); // 5
+    }
+ }
+Which of the following statements are correct?
+
+ANSWERS(1)=
+This will compile and run without any errors or exception.
++++
+This will compile if throws Exception is added at line //2
++++
+This will compile if throws Exception is added at line //4
++++
+This will compile if throws Exception is added at line //2 as well as //4 - CORRECT
++++
+This will compile if  line marked // 1 is enclosed in a try - catch block.
++++
+
+EXPLANATION=
+Any checked exceptions must either be handled using a try block or the method that generates the exception must declare that it throws that exception. 
+In this case, doA() declares that it throws Exception. doB() is calling doA but it is not handling the exception generated by doA(). 
+So, it must declare that it throws Exception. Now, the main() method is calling doB(), which generates an exception (due to a call to doA()). 
+Therefore, main() must also either wrap the call to doB() in a try block or declare it in its throws clause.  
+The main(String[] args) method is the last point in your program where any unhandled checked exception can bubble up to. After that the exception is thrown to the JVM and the JVM kills the thread.
+
+---
+8. QUESTION=
+What will be the result of compiling and running the following program ?
+
+class NewException extends Exception {}
+class AnotherException extends Exception {}
+public class ExceptionTest{
+   public static void main(String [] args) throws Exception{
+      try{
+         m2();
+      }
+      finally{ m3(); }
+    }
+    public static void m2() throws NewException{  throw new NewException();  }
+    public static void m3() throws AnotherException{  throw new AnotherException();  }
+}
+
+ANSWERS(1)=
+It will compile but will throw AnotherException when run. - CORRECT
++++
+It will compile but will throw NewException when run.
++++
+It will compile and run without throwing any exceptions.
++++
+It will not compile.
++++
+None of the above.
++++
+
+EXPLANATION=
+m2() throws NewException, which is not caught anywhere. But before exiting out of the main method, finally must be executed. Since finally throw AnotherException (due to a call to m3() ), the NewException thrown in the try block ( due to call to m2() ) is ignored and AnotherException is thrown from the main method.
+---
+9. QUESTION=
+How can you declare a method someMethod() such that an instance of the class is not needed to access it and all the members of the same package have access to it.
+
+ANSWERS(3)=
+public static void someMethod() - CORRECT
++++
+static void someMethod() - CORRECT
++++
+protected static void someMethod() - CORRECT
++++
+void someMethod()
++++
+protected void someMethod()
++++
+public abstract static void someMethod()
++++
+
+EXPLANATION=
+Since the question says, "...an instance of the class is not needed...", the method has to be static.
+Also, as the question does not say that other packages should not have access to the method so public or protected is also correct.
+
+---
+10. QUESTION=
+Given the following pairs of method declarations, which of the statements are true?
+
+1.
+void perform_work(int time){ }
+int  perform_work(int time, int speed){ return time*speed ;}
+
+2.
+void perform_work(int time){ }
+int  perform_work(int speed){return speed ;}
+
+3.
+void perform_work(int time){ }
+void Perform_work(int time){ }
+
+
+ANSWERS(2)=
+The first pair of methods will compile correctly and overload the method 'perform_work'. - CORRECT
++++
+The second pair of methods will compile correctly and overload the method 'perform_work'.
++++
+The third pair of methods will compile correctly and overload the method 'perform_work'.
++++
+The second pair of methods will not compile correctly. - CORRECT
++++
+The third pair of methods will not compile correctly.
++++
+
+EXPLANATION=
+Overloading of a method occurs when the name of more than one methods is exactly same but the parameter lists are different.
+
+The first and the third pairs of methods will compile correctly as they follow the above stated rule.
+
+The second pair of methods will not compile correctly, since their method signatures are same and the compiler cannot differentiate between the two methods as it does not look for return type. Also, only name and input parameters are the part of method declaration . Names of the parameters don't matter.
+
+Both methods in the first pair are named perform_work but have different parameter list so they overload this method name i.e. perform_work.
+
+The method named 'perform_work' is distinct from the method named 'Perform_work', as identifiers in Java are case-sensitive.
+---
+11. QUESTION=
+Consider the following code:
+
+class Super { static String ID = "QBANK"; }
+
+class Sub extends Super{
+   static { System.out.print("In Sub"); }
+}
+public class Test{
+   public static void main(String[] args){
+      System.out.println(Sub.ID);
+   }
+}
+What will be the output when class Test is run?
+
+ANSWERS(1)=
+It will print In Sub and QBANK.
++++
+It will print QBANK. - CORRECT
++++
+Depends on the implementation of JVM.
++++
+It will not even compile.
++++
+None of the above.
++++
+
+EXPLANATION=
+As per Section 12.4.1 given here: http://docs.oracle.com/javase/specs/jls/se7/html/jls-12.html
+A class or interface type T will be initialized immediately before the first occurrence of any one of the following:
+T is a class and an instance of T is created.
+T is a class and a static method declared by T is invoked.
+A static field declared by T is assigned.
+A static field declared by T is used and the field is not a constant variable (§4.12.4).
+T is a top level class (§7.6), and an assert statement (§14.10) lexically nested within T (§8.1.3) is executed.
+A reference to a static field (§8.3.1.1) causes initialization of only the class or interface that actually declares it, even though it might be referred to through the name of a subclass, a subinterface, or a class that implements an interface.
+Invocation of certain reflective methods in class Class and in package java.lang.reflect also causes class or interface initialization.
+A class or interface will not be initialized under any other circumstance.
+
+---
