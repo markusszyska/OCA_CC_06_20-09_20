@@ -27,16 +27,16 @@ public class GameArea extends JFrame {
 			e.printStackTrace();
 		}
 		Menu mymenu = new Menu();
-		game.setVisible(true);
+		//game.setVisible(true);
 		
-		super.setLayout(new BorderLayout());
-		super.add(mymenu, BorderLayout.NORTH);
-		super.add(game, BorderLayout.CENTER);
+		//super.setLayout(new BorderLayout());
+		//super.add(mymenu, BorderLayout.NORTH);
+		//super.add(game, BorderLayout.CENTER);
 		
-		game.setLayout(new GridLayout(4, 4, 100, 25));
+		//game.setLayout(new GridLayout(4, 4, 100, 25));
 		
 		
-		//super.setLayout(new GridLayout(4, 4, 100, 25));
+		super.setLayout(new GridLayout(4, 4, 100, 25));
 		
 
 		
@@ -96,8 +96,8 @@ public class GameArea extends JFrame {
 		int counter = 0;
 		for (Card[] i : cards) {
 			for (int j = 0; j < i.length; j++) {
-				game.add(cards[counter][j]);
-				//game.pack();
+				super.add(cards[counter][j]);
+				super.pack();
 			}
 			counter++;
 		}
